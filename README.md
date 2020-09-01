@@ -35,6 +35,9 @@ The sections as enumerated below will walk you through the process of creating a
 6. Review the **Environment name and settings** and press the **Create environment** button.
     You can optionally use your own Amazon EC2 instance if you have configured.
 7. Wait for the environment to start.
+   
+##While building application with the given cloud9 instance configuration Build project fails##
+   In that case increase size of EBS Volume from 8GB to 15GB, This will resolve build failure. 
 
 ### Create a Amazon ECR repository, build and push the docker image to Amazon ECR
 1. In the AWS Cloud9 instance, run the below command to create a repository in Amazon ECR
